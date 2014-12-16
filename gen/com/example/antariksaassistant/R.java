@@ -858,10 +858,22 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f050002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f060003;
+        public static final int abc_search_url_text_holo=0x7f06000f;
         public static final int abc_search_url_text_normal=0x7f060000;
         public static final int abc_search_url_text_pressed=0x7f060002;
         public static final int abc_search_url_text_selected=0x7f060001;
+        public static final int dark_menu=0x7f06000c;
+        public static final int green_action_bar=0x7f06000a;
+        public static final int green_action_bar_act=0x7f06000b;
+        public static final int green_button_act=0x7f06000e;
+        public static final int green_button_pas=0x7f06000d;
+        public static final int grey_act=0x7f060006;
+        public static final int grey_pas=0x7f060007;
+        public static final int grey_text=0x7f060008;
+        public static final int red_act=0x7f060003;
+        public static final int red_edge=0x7f060005;
+        public static final int red_pas=0x7f060004;
+        public static final int white=0x7f060009;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1077,9 +1089,12 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
+        public static final int antariksa_ico=0x7f020057;
+        public static final int ic_launcher=0x7f020058;
+        public static final int round_button_green_dark=0x7f020059;
     }
     public static final class id {
+        public static final int ButtonTambahData=0x7f09003e;
         public static final int action_bar=0x7f09001c;
         public static final int action_bar_activity_content=0x7f090001;
         public static final int action_bar_container=0x7f09001b;
@@ -1091,10 +1106,11 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_settings=0x7f09003c;
+        public static final int action_settings=0x7f09003f;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
         public static final int beginning=0x7f090016;
+        public static final int button=0x7f09003d;
         public static final int checkbox=0x7f09002d;
         public static final int collapseActionView=0x7f090010;
         public static final int default_activity_button=0x7f090028;
@@ -1110,6 +1126,7 @@ containing a value of this type.
         public static final int icon=0x7f09002a;
         public static final int ifRoom=0x7f090011;
         public static final int image=0x7f090027;
+        public static final int imageView1=0x7f09003c;
         public static final int listMode=0x7f090006;
         public static final int list_item=0x7f090029;
         public static final int middle=0x7f090018;
