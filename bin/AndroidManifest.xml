@@ -7,19 +7,82 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>  
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/ic_app"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/CustomActionBarTheme" >
         <activity
             android:name=".MainActivity"
+            android:icon="@drawable/ic_launcher_wh"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.antariksaassistant.AkunDataBaruActivity"
+            android:label="@string/act_bar_list_akun" 
+            android:icon="@drawable/ic_launcher_wh">
+            <intent-filter>
+                <action android:name="com.example.antariksaassistant.AkunDataBaruActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.antariksaassistant.DataAkunActivity"
+            android:label="@string/act_bar_akun_baru" 
+            android:icon="@drawable/ic_launcher_wh">
+            <intent-filter>
+                <action android:name="com.example.antariksaassistant.DataAkunActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.antariksaassistant.ListMateriActivity"
+            android:label="@string/act_bar_daftar_materi" 
+            android:icon="@drawable/ic_launcher_wh">
+            <intent-filter>
+                <action android:name="com.example.antariksaassistant.ListMateriActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.antariksaassistant.ListAkunActivity"
+            android:label="@string/act_bar_list_akun" 
+            android:icon="@drawable/ic_launcher_wh">
+            <intent-filter>
+                <action android:name="com.example.antariksaassistant.ListAkunActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.antariksaassistant.PenilaianActivity"
+            android:label="@string/act_bar_penilaian" 
+            android:icon="@drawable/ic_launcher_wh">
+            <intent-filter>
+                <action android:name="com.example.antariksaassistant.PenilaianActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.antariksaassistant.ReportActivity"
+            android:label="@string/app_name" 
+            android:icon="@drawable/ic_launcher_wh">
+            <intent-filter>
+                <action android:name="com.example.antariksaassistant.ReportActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>

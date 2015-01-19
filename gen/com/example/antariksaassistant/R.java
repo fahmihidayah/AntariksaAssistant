@@ -16,6 +16,10 @@ public final class R {
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
     }
+    public static final class array {
+        public static final int keterangan_gkb=0x7f0c0000;
+        public static final int option_edit_delete=0x7f0c0001;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -1090,11 +1094,17 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int antariksa_ico=0x7f020057;
-        public static final int ic_launcher=0x7f020058;
-        public static final int round_button_green_dark=0x7f020059;
+        public static final int ic_app=0x7f020058;
+        public static final int ic_launcher=0x7f020059;
+        public static final int ic_launcher_wh=0x7f02005a;
+        public static final int ic_report=0x7f02005b;
+        public static final int round_button_red=0x7f02005c;
+        public static final int round_corner_black=0x7f02005d;
+        public static final int square_button_red=0x7f02005e;
     }
     public static final class id {
         public static final int ButtonTambahData=0x7f09003e;
+        public static final int ScrollView1=0x7f090045;
         public static final int action_bar=0x7f09001c;
         public static final int action_bar_activity_content=0x7f090001;
         public static final int action_bar_container=0x7f09001b;
@@ -1106,17 +1116,36 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090002;
         public static final int action_menu_presenter=0x7f090003;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_settings=0x7f09003f;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
         public static final int beginning=0x7f090016;
-        public static final int button=0x7f09003d;
+        public static final int button=0x7f090044;
+        public static final int buttonAkunDataBaru=0x7f09003d;
+        public static final int buttonLihatNilaiTotal=0x7f09006b;
+        public static final int buttonReport=0x7f09006e;
+        public static final int buttonSave=0x7f09006d;
+        public static final int buttonSimpan=0x7f09004f;
+        public static final int buttonTambah=0x7f090041;
+        public static final int checkBoxmenyetorkan=0x7f09005c;
         public static final int checkbox=0x7f09002d;
         public static final int collapseActionView=0x7f090010;
         public static final int default_activity_button=0x7f090028;
         public static final int dialog=0x7f090014;
         public static final int disableHome=0x7f090009;
         public static final int dropdown=0x7f090015;
+        public static final int editTextBenarSalah=0x7f090069;
+        public static final int editTextEmail=0x7f090048;
+        public static final int editTextIsian=0x7f090063;
+        public static final int editTextKeteranganBenarSalah=0x7f09006a;
+        public static final int editTextKeteranganGKB=0x7f090060;
+        public static final int editTextKeteranganIsian=0x7f090064;
+        public static final int editTextKeteranganPilihanGanda=0x7f090067;
+        public static final int editTextKeteranganTidakHadir=0x7f09005a;
+        public static final int editTextNamaAsisten=0x7f09004c;
+        public static final int editTextNamaKelas=0x7f09004e;
+        public static final int editTextNamaPengajar=0x7f09004a;
+        public static final int editTextNamaPeserta=0x7f090046;
+        public static final int editTextPilihanGanda=0x7f090066;
         public static final int edit_query=0x7f090030;
         public static final int end=0x7f090017;
         public static final int expand_activities_button=0x7f090026;
@@ -1127,7 +1156,10 @@ containing a value of this type.
         public static final int ifRoom=0x7f090011;
         public static final int image=0x7f090027;
         public static final int imageView1=0x7f09003c;
+        public static final int imageViewProfile=0x7f090050;
         public static final int listMode=0x7f090006;
+        public static final int listViewAkun=0x7f090040;
+        public static final int listViewMateri=0x7f090052;
         public static final int list_item=0x7f090029;
         public static final int middle=0x7f090018;
         public static final int never=0x7f090012;
@@ -1136,6 +1168,11 @@ containing a value of this type.
         public static final int progress_circular=0x7f090004;
         public static final int progress_horizontal=0x7f090005;
         public static final int radio=0x7f09002f;
+        public static final int radioGroupKehadiran=0x7f090054;
+        public static final int radioHadir=0x7f090055;
+        public static final int radioIzin=0x7f090056;
+        public static final int radioSakit=0x7f090057;
+        public static final int radioTanpaKeterangan=0x7f090058;
         public static final int search_badge=0x7f090032;
         public static final int search_bar=0x7f090031;
         public static final int search_button=0x7f090033;
@@ -1150,9 +1187,29 @@ containing a value of this type.
         public static final int showCustom=0x7f09000b;
         public static final int showHome=0x7f09000c;
         public static final int showTitle=0x7f09000d;
+        public static final int spinnerKeterangan=0x7f09005e;
         public static final int split_action_bar=0x7f09001e;
         public static final int submit_area=0x7f090039;
         public static final int tabMode=0x7f090008;
+        public static final int textView1=0x7f090043;
+        public static final int textView2=0x7f090049;
+        public static final int textView3=0x7f09004b;
+        public static final int textView4=0x7f09004d;
+        public static final int textView5=0x7f090047;
+        public static final int textViewActionBar=0x7f09003f;
+        public static final int textViewBenarSalah=0x7f090068;
+        public static final int textViewGiliranKoreksiBacaan=0x7f09005b;
+        public static final int textViewIsian=0x7f090062;
+        public static final int textViewJumlahPeserta=0x7f090042;
+        public static final int textViewKeterangan=0x7f09005d;
+        public static final int textViewKeteranganGKB=0x7f09005f;
+        public static final int textViewKeteranganTidakHadir=0x7f090059;
+        public static final int textViewLaporan=0x7f09006f;
+        public static final int textViewMateri=0x7f090053;
+        public static final int textViewNama=0x7f090051;
+        public static final int textViewNilai=0x7f09006c;
+        public static final int textViewPilihanGanda=0x7f090065;
+        public static final int textViewPreodicTest=0x7f090061;
         public static final int title=0x7f09002b;
         public static final int top_action_bar=0x7f090020;
         public static final int up=0x7f090021;
@@ -1210,10 +1267,25 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_main=0x7f030018;
-        public static final int support_simple_spinner_dropdown_item=0x7f030019;
+        public static final int akun_data_baru_action_bar=0x7f030019;
+        public static final int akun_data_baru_activity=0x7f03001a;
+        public static final int data_akun_actiivty=0x7f03001b;
+        public static final int data_akun_action_bar=0x7f03001c;
+        public static final int data_akun_activity=0x7f03001d;
+        public static final int item_data_akun=0x7f03001e;
+        public static final int list_akun_action_bar=0x7f03001f;
+        public static final int list_akun_activity=0x7f030020;
+        public static final int list_materi_action_bar=0x7f030021;
+        public static final int list_materi_activity=0x7f030022;
+        public static final int main_action_bar=0x7f030023;
+        public static final int penilaian_action_bar=0x7f030024;
+        public static final int penilaian_activity=0x7f030025;
+        public static final int report_action_bar=0x7f030026;
+        public static final int report_activity=0x7f030027;
+        public static final int support_simple_spinner_dropdown_item=0x7f030028;
     }
     public static final class menu {
-        public static final int main=0x7f0c0000;
+        public static final int main=0x7f0d0000;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1256,6 +1328,10 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
+        public static final int act_bar_akun_baru=0x7f0a0011;
+        public static final int act_bar_daftar_materi=0x7f0a0012;
+        public static final int act_bar_list_akun=0x7f0a0010;
+        public static final int act_bar_penilaian=0x7f0a0013;
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
         public static final int hello_world=0x7f0a000e;
@@ -1282,11 +1358,17 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f0b008b;
+        public static final int AppBaseTheme=0x7f0b008d;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f0b008c;
+        public static final int AppTheme=0x7f0b008e;
+        /**  the theme applied to the application or activity 
+         */
+        public static final int CustomActionBarTheme=0x7f0b008b;
+        /**  ActionBar styles 
+         */
+        public static final int MyActionBar=0x7f0b008c;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0063;

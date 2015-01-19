@@ -4,5 +4,20 @@
     <string name="app_name">Antariksa Assistant</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string-array name="keterangan_gkb">
+        <item >Tidak ada kesalahan</item>
+        <item >1 kesalahan dalam kriteria penilaian</item>
+        <item >2 kesalahan dalam kriteria penilaian</item>
+        <item >3 kesalahan dalam kriteria penilaian</item>
+    </string-array>
+    <string-array name="option_edit_delete">
+        <item >Ubah</item>
+        <item >Hapus</item>
+    </string-array>
+    
+    <string name="act_bar_list_akun">Daftar Akun</string>
+    <string name="act_bar_akun_baru">Akun Baru</string>
+    <string name="act_bar_daftar_materi">Daftar Materi</string>
+    <string name="act_bar_penilaian">Penilaian</string>
 
 </resources>

@@ -16,13 +16,13 @@
         android:src="@drawable/antariksa_ico" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonAkunDataBaru"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
-        android:background="@drawable/round_button_green_dark"
+        android:background="@drawable/round_button_red"
         android:text="Akun Data Baru"
         android:padding="10dp"
         android:textColor="@color/white" />
@@ -31,11 +31,11 @@
         android:id="@+id/ButtonTambahData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignRight="@+id/button"
-        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/buttonAkunDataBaru"
+        android:layout_alignRight="@+id/buttonAkunDataBaru"
+        android:layout_below="@+id/buttonAkunDataBaru"
         android:layout_marginTop="29dp"
-        android:background="@drawable/round_button_green_dark"
+        android:background="@drawable/round_button_red"
         android:padding="10dp"
         android:text="Tambah Data"
         android:textColor="@color/white" />
